@@ -18,7 +18,7 @@ from datetime import datetime, timedelta
 import os
 import io
 import imutils
-auth_token='bdab5d8969bd668a538b2f3bc868f1fc15076650'
+auth_token='3f27387c0015b9dba34cf0bc10d1bd936f6d09e8'
 header = {'Authorization': 'Token ' + auth_token}
 
 camera = picamera.PiCamera()

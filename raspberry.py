@@ -126,7 +126,7 @@ def sendUnknown(name_index, frame):
 			r = requests.post("https://www.kora.work/api/checks/",
 				headers=header,
 				files={'photo': imgByteArr},
-				data={'worker':known_face_pk[name_index],
+				data={'worker':None,
 					'device':device_idn,
 					'datetime':str(datetime.now())})
 			break

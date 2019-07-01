@@ -20,9 +20,9 @@ import io
 import imutils
 from threading import Timer, Thread
 import subprocess
-auth_token='bdab5d8969bd668a538b2f3bc868f1fc15076650'
+auth_token='3f27387c0015b9dba34cf0bc10d1bd936f6d09e8'
 header = {'Authorization': 'Token ' + auth_token}
-device_idn = "000005"
+device_idn = "000001"
 known_face_encodings = []
 known_face_pk = []
 sended_face_pk = []
